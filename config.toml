@@ -1,0 +1,42 @@
+# baseURL = "http://example.org/"
+# languageCode = "en-us"
+# title = "My New Hugo Site"
+# theme = "hyde"
+
+baseurl = "http://www.rushiagr.com"
+languageCode = "en-us"
+title = "rushiagr"
+theme = "hyde"
+copyright = "Rushi Agrawal"
+googleAnalytics = "UA-37074962-1"
+disqusShortname = "rushiagr"
+
+
+[Author]
+	name = "Rushi Agrawal"
+
+[Permalinks]
+	blog = "blog/:year/:month/:day/:filename/"
+	code = "/:filename/"
+
+[Taxonomies]
+	tag = "tags"
+	series = "series"
+	series-desc = "series-desc"
+
+[params]
+	description = "Yet another tech guy"
+	twitter = "https://twitter.com/rushiagr"
+	github = "https://github.com/rushiagr"
+	disqus = "rushiagr"
+    linkedin = "https://www.linkedin.com/in/rushi-agrawal-0b799b15"
+
+    themeColor = "theme-base-08"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/rushiagr/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/rushi-agrawal-0b799b15"},
+      # {Name = "About", URL = "https://www.rushiagr.com/about/"}
+  ]
+
