@@ -3,7 +3,7 @@
 # title = "My New Hugo Site"
 # theme = "hyde"
 
-baseurl = "http://www.rushiagr.com"
+baseurl = "http://www.rushiagr.com/" # Note: very important to add trailing slash
 languageCode = "en-us"
 title = "rushiagr"
 theme = "hyde"
@@ -31,7 +31,7 @@ disqusShortname = "rushiagr"
 	disqus = "rushiagr"
     linkedin = "https://www.linkedin.com/in/rushi-agrawal-0b799b15"
 
-    themeColor = "theme-base-08"
+    # themeColor = "theme-base-08"
 
 [Menus]
   main = [
