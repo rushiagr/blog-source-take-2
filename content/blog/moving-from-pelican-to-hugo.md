@@ -1,5 +1,5 @@
 +++
-Tags = ["Development", "golang"]
+tags = ["Development", "golang"]
 date = "2016-01-24T21:19:26+05:30"
 type = "post"
 title = "Moving from Pelican to Hugo"
